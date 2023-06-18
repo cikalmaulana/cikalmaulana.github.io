@@ -1,0 +1,254 @@
+#headerGrid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#header{
+    display: flex;
+    background-color: #404258;
+    height: 80vh;
+    margin: 5vh;
+    border-radius: 15px;
+    border: none solid;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#headerBio{
+    background-color: #50577A;
+    height: 80vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+    border: none solid;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    padding: 35px;
+}
+
+#bio{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10vh;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10vh;
+}
+
+.skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Setiap grid_outlet memiliki lebar 1 fraksi dari total 3 fraksi */
+    gap: 5px; /* Jarak antara grid_outlet */
+}
+
+.skillsFrameworkGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Setiap grid_outlet memiliki lebar 1 fraksi dari total 3 fraksi */
+    gap: 5px; /* Jarak antara grid_outlet */
+}
+
+.projectsGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Setiap grid_outlet memiliki lebar 1 fraksi dari total 3 fraksi */
+    gap: 20px; /* Jarak antara grid_outlet */
+}
+
+.imageContainer{
+    width: 75%;
+    height: 75%;
+    border-radius: 25px;
+    background-color: white;
+    transition: transform .5s;
+}
+
+.imageContainer:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+.imageContainer img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+.skillsGrid:nth-child(2) .imageContainer:nth-child(2) img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.skillsGrid:nth-child(2) .imageContainer:nth-child(3) img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.skillsGrid:nth-child(2) .imageContainer:nth-child(4) img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.skillsGrid:nth-child(2) .imageContainer:nth-child(5) img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.skillsGrid:nth-child(2) .imageContainer:nth-child(7) img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.skillsFrameworkGrid .imageContainer:nth-child(2) img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.skillsFrameworkGrid .imageContainer:nth-child(3) img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.skillsFrameworkGrid .imageContainer:nth-child(4) img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.projectImageContainer{
+    height: 100vh;
+    width: auto;
+    border-radius: 15px;
+}
+
+.projectImageContainer img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    
+}
+
+.projectDetail{
+    background-color: #404258;
+    color: white;
+    border-radius: 15px;
+    padding: 35px;
+    width: 80vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    border: none;
+}
+
+.projectDetail:nth-child(1){
+    background-color: #50577A;
+}
+
+.buttonLinkedin{
+    background-color: #0A66C2;
+    padding: 12px;
+    width: 2000px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonGithub{
+    background-color: black;
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonEmail{
+    background-color: #B70404;
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonWA{
+    background-color: green;
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonEmail:hover{
+    background-color: #CD1818;
+}
+
+.buttonWA:hover{
+    background-color: #116D6E;
+}
+
+.buttonLinkedin:hover, .buttonGithub:hover{
+    background-color: #27374D;
+}
+
+.btn_wa{
+    margin-top: 15px;
+}
+
+#footer{
+    background-color: black;
+    height: 50vh;
+    margin: 5vh;
+    border-radius: 15px;
+    border: none solid;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    padding: 50px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover{
+    color: #0A66C2;
+}

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- aos -->
+        <link rel="stylesheet" href="stylce.css">
+        <title>Rajasa Cikal</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="leftMenu shadow">
+                <button class="openbtn questrial" onclick="openNav()">☰ Menu</button>
+                <div id="sideNav" class="sideNav">
+                    <div class="lingkaranFoto">
+                        <img src="img/profileImage2.jpeg" alt="" class="shadow">
+                    </div>
+                    <h3 class="montserrat ">Rajasa Cikal</h3>
+                    <h6 class="roboto">Teknik Informatika</h6>
+                    <ul>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <li><a href="#firstBox"><i class="material-icons">home</i></i>Home</a></li>
+                        <li><a href="#secondBox"><i class="material-icons">person</i>About</a></li>
+                        <li><a href="#thirdBox"><i class="material-icons">library_books</i></i>Resume</a></li>
+                        <li><a href="#fourthBox"><i class="material-icons">call</i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <div id="sideNavMobile" class="sideNavMobile">
+                    <div class="lingkaranFoto">
+                        <img src="img/profileImage2.jpeg" alt="" class="shadow">
+                    </div>
+                    <h3 class="montserrat ">Rajasa Cikal</h3>
+                    <h6 class="roboto">Teknik Informatika</h6>
+                    <ul>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <li onclick="closeNav()"><a href="#firstBox"><i class="material-icons">home</i></i>Home</a></li>
+                        <li onclick="closeNav()"><a href="#secondBox"><i class="material-icons">person</i>About</a></li>
+                        <li onclick="closeNav()"><a href="#thirdBox"><i class="material-icons">library_books</i></i>Resume</a></li>
+                        <li onclick="closeNav()"><a href="#fourthBox"><i class="material-icons">call</i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="firstBox" class="rightContent shadow firstBox">
+                <div class="container">
+                    <h1>Rajasa Cikal <br> Maulana Solihin</h1>
+                    <p class="roboto">I am a student at Parahyangan Catholic University majoring in Informatics Engineering. </p>
+                    <a href="#fourthBox" class="btn btnMessage">Send me a message!</a>
+                </div>
+            </div>
+
+            <div id="secondBox" class="rightContent shadow p-3 mb-5 bg-body secondBox">
+                <div class="container">
+                    <h3 data-aos="fade-right" data-aos-duration="1500">About Me</h3>
+                    <div class="paragrafSecondBox" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
+                        <h5>Hi,</h5>
+                        <p>Nama saya Rajasa Cikal, seorang mahasiswa Teknik Informatika Universitas Katolik Parahyangan. 
+                            Saya adalah mahasiswa yang rajin dan tekun, serta gigih dalam belajar hal-hal baru.
+                            Memiliki motivasi dan semangat yang tinggi dalam belajar. Memiliki kemauan untuk selalu
+                            memperbaiki diri, disiplin, bertanggung jawab terhadap tugas dan pekerjaan yang diberikan.
+                            Serta dapat bekerja dalam tim.
+                        </p>
+
+                        <table class="biodata">
+                            <tr>
+                                <td>Name</td>
+                                <td>: Rajasa Cikal Maulana Solihin</td>
+                            </tr>
+                            <tr>
+                                <td>Birthday</td>
+                                <td>: 14 Feb 2000</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>: Bojongsoang, Bandung</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="thirdBox" class="rightContent shadow p-3 mb-5 bg-body thirdBox">
+                <div class="container">
+                    <h3 data-aos="fade-right" data-aos-duration="1500">Skills</h3>
+                    <h6><b>CSS</b></h6>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">
+
+                        </div>
+                    </div>
+
+                    <h6><b>HTML</b></h6>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;">
+
+                        </div>
+                    </div>
+
+                    <h6><b>JavaScript</b></h6>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 65%;">
+
+                        </div>
+                    </div>
+                    
+                    <h6><b>PHP</b></h6>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 77%;">
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="fourthBox" class="rightContent shadow  fourthBox">
+                <div class="container">
+                    <h3 data-aos="fade-right" data-aos-duration="1500">Contact</h3>
+                    <div class="contactGrid">
+                        <div class="icons"><i class="material-icons" style="font-size:36px">call</i></div>
+                        <div class="title"><a href="https://api.whatsapp.com/send?phone=+628971692394" style="text-decoration: none; color: white;">Phone</a></div>
+                        <div class="content">(+62) 889-7169-2394</div>
+                    </div>
+                    <div class="contactGrid">
+                        <div class="icons"><i class="material-icons" style="font-size:36px">email</i></div>
+                        <div class="title"><a class="mailto" href="mailto:rajasacikalmaulana@gmail.com" style="text-decoration: none; color: white;">Mail</a></div>
+                        <div class="content">rajasacikalmaulana@gmail.com</div>
+                    </div>
+                    <div class="contactGrid">
+                        <div class="icons"><i class="material-icons" style="font-size:36px">location_on</i></div>
+                        <div class="title"><a href="https://www.google.co.id/maps/place/Bandung,+Kota+Bandung,+Jawa+Barat/@-6.9032739,107.5731165,12z/data=!3m1!4b1!4m5!3m4!1s0x2e68e6398252477f:0x146a1f93d3e815b2!8m2!3d-6.9174639!4d107.6191228"
+                            style="text-decoration: none; color: white;"> Location</a></div>
+                        <div class="content">Bandung, West Java, Indonesia 40287</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="script.js"></script>
